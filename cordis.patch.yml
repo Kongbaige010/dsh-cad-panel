@@ -1,0 +1,11 @@
+# dsh-cad-panel — bundle patch layer.
+#
+# 只挂一行：本包的宿主半边（lib/index.js）。它不提供任何工具，只负责让这个
+# bundle 在 profile 里成为一个合法的插件行；真正干活的是客户端半边
+# （lib/client.js），由 Web 端的模块加载器加载。
+#
+# 想改引擎地址或 token：改 lib/client.js 里的 ENGINE_URL / TOKEN，刷新页面
+# 即可生效，无需重启 DSH（改前端不走宿主）。
+- insert:
+    - id: cad-panel
+      name: dsh-cad-panel

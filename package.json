@@ -1,0 +1,40 @@
+{
+  "name": "dsh-cad-panel",
+  "version": "0.1.0",
+  "description": "Third-party DSH plugin: embeds the text-to-cad viewer in DSH's right sidebar as a dock tab, and renders offline rotatable model previews.",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "preview",
+    "cordis.patch.yml",
+    "repatch-engine-csp.sh",
+    "patch-current-route.py",
+    "patch-embed-instrument.py",
+    "THIRD-PARTY-NOTICES.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cad",
+    "text-to-cad",
+    "build123d",
+    "3d",
+    "viewer"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
