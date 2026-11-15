@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# 发布过程中的临时物
+.npm-*
+.2fa-*
+.meta.json

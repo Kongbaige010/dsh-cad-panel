@@ -21,6 +21,14 @@ git clone https://github.com/Kongbaige010/dsh-cad-panel.git ~/.dsh/local-plugins
 
 放到 `~/.dsh/local-plugins/` 下只是为了与其它本地插件同处一地，放别处也能用。
 
+也可以直接从 npm 装（包已发布）：
+
+```bash
+npm install dsh-cad-panel --registry=https://registry.npmjs.org
+```
+
+npm 版只含运行所需文件；想用 `preview/` 里的一键脚本，仍建议 git clone。
+
 ## 第二步：给引擎打补丁
 
 ```bash

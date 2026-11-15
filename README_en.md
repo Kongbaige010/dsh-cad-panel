@@ -2,7 +2,7 @@
 
 [简体中文](README.md) · **English**
 
-[![GitHub stars](https://img.shields.io/github/stars/Kongbaige010/dsh-cad-panel?style=social)](https://github.com/Kongbaige010/dsh-cad-panel) [![license](https://img.shields.io/badge/license-MIT-4D6BFE)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/dsh-cad-panel?style=flat-square&logo=npm&logoColor=white&color=4D6BFE)](https://www.npmjs.com/package/dsh-cad-panel) [![GitHub stars](https://img.shields.io/github/stars/Kongbaige010/dsh-cad-panel?style=social)](https://github.com/Kongbaige010/dsh-cad-panel) [![license](https://img.shields.io/badge/license-MIT-4D6BFE)](LICENSE)
 
 Brings the text-to-cad live 3D viewer into DSH's right sidebar: click the `CAD` chip left of the composer to see the model, and the panel refreshes itself whenever the model is rebuilt.
 

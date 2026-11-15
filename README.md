@@ -2,7 +2,7 @@
 
 **简体中文** · [English](README_en.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/Kongbaige010/dsh-cad-panel?style=social)](https://github.com/Kongbaige010/dsh-cad-panel) [![license](https://img.shields.io/badge/license-MIT-4D6BFE)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/dsh-cad-panel?style=flat-square&logo=npm&logoColor=white&color=4D6BFE)](https://www.npmjs.com/package/dsh-cad-panel) [![GitHub stars](https://img.shields.io/github/stars/Kongbaige010/dsh-cad-panel?style=social)](https://github.com/Kongbaige010/dsh-cad-panel) [![license](https://img.shields.io/badge/license-MIT-4D6BFE)](LICENSE)
 
 把 text-to-cad 的实时三维视图接进 DSH 右侧栏：点一下输入框左侧的 `CAD` 胶囊就能看模型，模型重建时面板自己刷新。
 
