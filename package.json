@@ -1,6 +1,6 @@
 {
   "name": "dsh-cad-panel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Third-party DSH plugin: brings the text-to-cad live 3D viewer into DSH's right sidebar and renders offline rotatable model previews.",
   "license": "MIT",
   "main": "./lib/index.js",
