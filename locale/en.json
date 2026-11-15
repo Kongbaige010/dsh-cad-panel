@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "CAD Panel",
+    "description": "Brings the text-to-cad live 3D viewer into DSH's right sidebar and renders offline rotatable model previews.",
+    "detail": "docs/DETAIL_en.md"
+  }
+}

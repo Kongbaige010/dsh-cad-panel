@@ -5,5 +5,6 @@
 *.py    text eol=lf
 *.yml   text eol=lf
 
-# 内联的 three.js 是第三方构建产物，不参与行尾转换
+# 第三方构建产物与位图：不参与行尾转换
 preview/vendor-classic/* -text
+*.png -text

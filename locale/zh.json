@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "CAD 面板",
+    "description": "把 text-to-cad 的实时三维视图接进 DSH 右侧栏，并能生成离线可旋转的模型预览页。",
+    "detail": "docs/DETAIL.md"
+  }
+}

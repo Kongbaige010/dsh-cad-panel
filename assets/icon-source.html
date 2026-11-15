@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- assets/icon-180.png 的可复现源：改这里再跑一次渲染命令即可保持一致。
+     渲染命令（无头 Edge，180×180，2 倍采样后按 1 倍输出）：
+       msedge --headless=new --disable-gpu --hide-scrollbars \
+              --force-device-scale-factor=2 --window-size=180,180 \
+              --screenshot=assets/icon-180.png assets/icon-source.html
+-->
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; width: 180px; height: 180px; background: transparent; }
+  .tile {
+    width: 180px; height: 180px;
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(140deg, #5B78FF 0%, #4D6BFE 55%, #3F58DB 100%);
+    border-radius: 40px;
+  }
+  .tile svg { width: 108px; height: 108px; color: #ffffff; }
+</style>
+<div class="tile">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none">
+    <path d="M18 4.2 30.8 10.9v13.4L18 30.9 5.2 24.3V10.9z"
+          stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="18" cy="17.6" r="4.6" stroke="currentColor" stroke-width="2"/>
+  </svg>
+</div>

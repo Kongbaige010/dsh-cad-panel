@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" role="img" aria-label="CAD panel">
+  <!-- 等轴测底板（六边形） + 中心通孔：一眼看出是 CAD 零件 -->
+  <path d="M18 4.2 30.8 10.9v13.4L18 30.9 5.2 24.3V10.9z"
+        stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="18" cy="17.6" r="4.6" stroke="currentColor" stroke-width="2"/>
+</svg>
